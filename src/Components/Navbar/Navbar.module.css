@@ -1,0 +1,100 @@
+.Navbar {
+    background-color: #000;
+    height: 80px;
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.Links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Links p {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+}
+
+.Bars {
+    display: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+    .Bars {
+        display: block;
+        position: absolute;
+        margin-top: 15px;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 35%);
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+
+}
+
+.NavMenu {
+    display: flex;
+    align-items: center;
+    margin-right: -24px;
+}
+
+@media screen and (max-width: 768px) {
+    .NavMenu {
+        display: none;
+    }
+}
+
+.NavBtn {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .NavBtn {
+        display: none;
+    }
+}
+
+.NavBtnLinks {
+    border-radius: 4px;
+    color: #fff;
+    background-color: #256ce1;
+    padding: 10px 22px;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.NavBtnLinksSignUp {
+    color: #fff;
+    background-color: #000;
+    padding: 10px 22px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.NavBtnLinksSignUp:hover {
+    transition: all 0.1s ease-in-out;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #FFF;
+}

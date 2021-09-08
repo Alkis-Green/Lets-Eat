@@ -1,0 +1,29 @@
+.RecipeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: .2em;
+    /* background: #999; */
+    margin-bottom: 1em;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+}
+
+.RecipeContainer h2 {
+    margin: .3em 0.2em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+
+.Bottom a {
+    /* text-decoration: none; */
+    font-family: 'Lobster', cursive;
+    color: black;
+}

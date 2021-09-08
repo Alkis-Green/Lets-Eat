@@ -1,0 +1,152 @@
+.RecipesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.Header h1 {
+    font-size: 4.4em;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    margin: 0 0 .5em 0;
+
+    line-height: 1.2em;
+    letter-spacing: .25em;
+    /* transform: rotate(-5deg); */
+}
+
+.Header p {
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: .14em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .Header h1,
+    span {
+        margin: 0;
+    }
+
+    .Header p {
+        letter-spacing: .12em;
+    }
+}
+
+.Header .Drink {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.Header .Food {
+    font-size: 1.7em;
+    color: #333;
+}
+
+.Header .Pastry {
+    font-size: 1.3em;
+    color: #777;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Header h1 {
+        font-size: 3em;
+    }
+}
+
+.RecipeWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 5px;
+    place-items: center;
+    margin: 0 1em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .RecipeWrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 5em 0;
+}
+
+.formContainer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form input {
+    outline: none;
+    border: none;
+    background: black;
+    color: #fff;
+
+    width: 300px;
+    padding: .8em;
+    border-radius: 2em;
+    margin-right: 0.6em;
+}
+
+.form button {
+    outline: none;
+    border: 1px solid #333;
+    color: #333;
+    padding: .77em;
+    width: 70px;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+
+span {
+    color: #333;
+}
+
+
+.PaginationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 4em;
+}
+
+.PaginationContainer button {
+    padding: .5em;
+    margin: 1em;
+
+    border: none;
+    border-radius: 2em;
+    background: black;
+    color: white;
+    cursor: pointer;
+
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    width: 80px;
+}
+
+.PaginationContainer p {
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .PaginationContainer {
+        margin-top: 0;
+    }
+}
