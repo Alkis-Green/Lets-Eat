@@ -1,0 +1,58 @@
+.Container {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: black;
+}
+
+form span {
+    font-size: .85em;
+    margin: 0 0.5em;
+    color: white;
+}
+
+.login {
+    /* border: 2px solid white; */
+    color: white;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.loginHeader {
+    margin: 0 0 3em 0;
+    font-family: 'Lobster';
+}
+
+form {
+    width: 80%;
+    /* padding: 2em; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form h3 {
+    text-align: left;
+    margin: .8em .5em 1em 0;
+    border-bottom: 1px solid white;
+}
+
+form input {
+    outline: none;
+    padding: 1em;
+    border: none;
+    border-radius: 2em;
+}
+
+form button {
+    width: 40%;
+    margin: 1.5em auto .5em auto;
+    padding: .5em;
+    font-size: 1em;
+    border: none;
+    border-radius: 2em;
+    font-family: 'Lobster';
+    cursor: pointer;
+}

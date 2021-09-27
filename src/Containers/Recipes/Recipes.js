@@ -13,7 +13,7 @@ const Recipes = () => {
 
     
   useEffect(() => {
-    getRecipes();
+    getRecipes()
   }, [query, pagination]);
   
   const getRecipes = async () => {

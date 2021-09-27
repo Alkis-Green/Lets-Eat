@@ -36,9 +36,10 @@
     text-align: center;
 }
 
-.LinkList p {
+p {
     font-family: 'Lobster', cursive;
     font-size: 4em;
+    text-align: center;
     cursor: none;
 }
 

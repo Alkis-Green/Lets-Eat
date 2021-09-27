@@ -1,10 +1,11 @@
 import React from 'react';
+import SignIn from '../Components/Signin/SignIn';
 
 const Login = () => {
     return (
         <>
             <div className="container">
-            Sign In / Sign Up
+                <SignIn />
             </div>
         </>
     );
